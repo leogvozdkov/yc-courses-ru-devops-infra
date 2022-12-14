@@ -1,0 +1,29 @@
+kind: Recordset
+apiVersion: dns.yandex-cloud.jet.crossplane.io/v1alpha1
+metadata:
+  name: apps
+spec:
+  deletionPolicy: Orphan
+  forProvider:
+    data:
+      - "62.84.120.6"
+    name: "*.apps.yc-courses.ga."
+    ttl: 600
+    type: A
+    zoneIdRef:
+      name: yc-courses
+---
+kind: Recordset
+apiVersion: dns.yandex-cloud.jet.crossplane.io/v1alpha1
+metadata:
+  name: apps-cert-challenge
+spec:
+  deletionPolicy: Orphan
+  forProvider:
+    data:
+      - "fpqco69uav0vpgiitnca.cm.yandexcloud.net."
+    name: "_acme-challenge.apps.yc-courses.ga."
+    ttl: 600
+    type: CNAME
+    zoneIdRef:
+      name: yc-courses

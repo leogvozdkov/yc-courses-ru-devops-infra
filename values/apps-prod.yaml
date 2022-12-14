@@ -1,0 +1,8 @@
+spec:
+  source:
+    repoURL: https://yc-courses-restore.gitlab.yandexcloud.net/yc-courses/infra.git
+    targetRevision: HEAD
+    appsRepoURL: https://yc-courses-restore.gitlab.yandexcloud.net/yc-courses/todoapp.git
+    appsTargetRevision: HEAD
+  destination:
+    server: https://158.160.7.80

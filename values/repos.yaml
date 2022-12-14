@@ -1,0 +1,28 @@
+repositories:
+    todoapp:
+        password: ENC[AES256_GCM,data:Y6ssBVhDZoqa87yyEv1iU4QZsl8=,iv:ZIwEtbVlBSU0n6SFMLskA4npHUW7Fcskqq269fIcgB4=,tag:VCZKR9eDzGtsRf0y8PD2Zg==,type:str]
+        project: ENC[AES256_GCM,data:pMjflubcfw==,iv:8a7/pergcfaWDBrlTDZ/Va0riq8jqHYsF6LLp0vD12Y=,tag:1Cmly8qLqbeGC1SBUnY1ew==,type:str]
+        type: ENC[AES256_GCM,data:u6IL,iv:GJXMd4DtyZsDFYzbmoe+fHYqbqhVFfV973lAYfq8OGs=,tag:nNKrPiPNKkewJwb0dX4CvQ==,type:str]
+        url: ENC[AES256_GCM,data:0/vwSqY3sD4UlHnYbP0k1HYqmtWlZs7BiWaqZxgZwSCc+PObp6iECK9/DL16eEp/7XmpcPtRZQuSzEutgF5A4sekWAVgFEdb,iv:S1c/oNSj6xJxEqsEt6te+UziYwe+tBSVTfxN20lq8VM=,tag:o+03x0pTY6gOv0HBwV6rUQ==,type:str]
+        username: ENC[AES256_GCM,data:5kZQkw5uA1zxPya4qMbO,iv:FqCFbLsuy6l69Qh7Jha00pOT4RzzXDcv+K9xX1g8iow=,tag:mex9K+wUGHR4MgP96/8tpA==,type:str]
+        name: ENC[AES256_GCM,data:fpNC16Rddg==,iv:uYDKKw49uovxYqv40HmkalrG2MZ87hphxdAL1pyodEY=,tag:dTnMd9Et3YmjKErjRTWbKA==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age17lgveeypt9nlrfm2ht22y7nwj4jrjx6p3q0c2ufmyqksr99l84mswkrthz
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA0aGdhVFpLSGNPbW1JUFAv
+            RUFkUEc3cFJkR0RJeHA4NEgzcGhsK0FES25nCnJmK0ZFYktzTGRYeklYd0prOFVZ
+            YWRZL045ZHRTLysvVlBsVEVuK3d6VTQKLS0tIEhKeWhqQ2JQRUREQndPWTNKUlJP
+            QW5zVWhwaEJaYkV6dWh2UzNTNjZzdXMKWHK/ijb4ZWwgXePgnwpFhh0X6zDr8ykg
+            KKppT6TWVmffZU5UNmVYoknNFuKONi3VmouIWNPqQ4zMB6+PZ8thgA==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2022-07-04T17:41:55Z"
+    mac: ENC[AES256_GCM,data:nrHtw4eaEKD9tDKsrBYy2MTIIvw+nVWxq11z9+4IhaKi1uim/N73sFBJG3Kddpg28wL/ha2/nxk2QLZ6ixSHH3VT3eAWewLzRaHsyajnEMkcnRLDlfNUHOGN9GXYKaGYqrYDpkV3ODzv2iwEPBidG0zRWPhDQTN42L8SVWcFE+k=,iv:e4RI98dmdPGpq0O5FwwyeiHn246e/NuAWNWz0kwscbA=,tag:YI9KlIYqd2kl1YX8e1OvBg==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
